@@ -2,5 +2,5 @@ const DappToken = artifacts.require("DappToken");
 
 module.exports = function (deployer)
 {
-  deployer.deploy(DappToken);
+  deployer.deploy(DappToken, 10**12);
 };
